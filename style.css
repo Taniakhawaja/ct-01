@@ -50,6 +50,7 @@ header .nav-bar a{
 section{
     padding: 50px;
     text-align: center;
+    font-size: bolder;
 }
 .feature{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,21 +58,27 @@ section{
   text-align: center;
   background: #1abc9c;
   color: rgb(39, 36, 36);
-  margin-top: 50px;
+  margin-top: 100px;
   }
-.features{
-    display: flex 1;
-    justify-content:space-between;
-    margin: 0 20px;
-    background-color: bisque;
 
-}
+td {
+    background-color: #696666;
+    border: 0px  #0088dd;
+    padding: 30px 50px 50px 50px;
+margin-bottom: 100px;}
+    table.one {
+        margin-top:30px;
+        border-spacing: 90px 20px;
+    empty-cells: show;}
+    table.two {
+
+        border-spacing:350px 20px;}
+
+
+
 .about{
-background-color: rgb(123, 122, 121);
+background-color: rgb(174, 171, 168);
 color: black;
-padding: 40px 30px 30px 40px;
-margin: 10px;
+padding: 90px 30px 100px 40px;
+margin: 50px;
 }
-/* footer */
-
-
